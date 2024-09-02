@@ -370,25 +370,25 @@ echo "
 "
 read -p "Input Option: " opw
 case $opw in
-01|1) clear ; add-vmess ;;
-02|2) clear ; add-vless ;;
-03|3) clear ; add-trojan ;;
-04|4) clear ; add-ssws ;;
-05|5) clear ; add-socks ;;
-06|6) clear ; trial-vmess ;;
-07|7) clear ; trial-vless ;;
-08|8) clear ; trial-trojan ;;
-09|9) clear ; trial-socks ;;
-10) clear ; trial-ssws ;;
-11) clear ; mlbb ;;
-12) clear ; cek ;;
-13) clear ; ren ;;
-14) clear ; dell ;;
-15) clear ; uix ;;
-16) clear ; uit ;;
-17) clear ; mx ;;
-18) clear ; log-xray ;;
-*) clear ; menu-xray ;;
+01|1) clear ; /usr/bin/add-vmess.sh ;;
+02|2) clear ; /usr/bin/add-vless.sh ;;
+03|3) clear ; /usr/bin/add-trojan.sh ;;
+04|4) clear ; /usr/bin/add-ssws.sh ;;
+05|5) clear ; /usr/bin/add-socks.sh ;;
+06|6) clear ; /usr/bin/trial-vmess.sh ;;
+07|7) clear ; /usr/bin/trial-vless.sh ;;
+08|8) clear ; /usr/bin/trial-trojan.sh ;;
+09|9) clear ; /usr/bin/trial-socks.sh ;;
+10) clear ; /usr/bin/trial-ssws.sh ;;
+11) clear ; /usr/bin/mlbb.sh ;;
+12) clear ; /usr/bin/cek.sh ;;
+13) clear ; /usr/bin/ren.sh ;;
+14) clear ; /usr/bin/dell.sh ;;
+15) clear ; /usr/bin/uix.sh ;;
+16) clear ; /usr/bin/uit.sh ;;
+17) clear ; /usr/bin/mx.sh ;;
+18) clear ; /usr/bin/log-xray.sh ;;
+*) clear ; /usr/bin/menu-xray.sh ;;
 esac
 }
 

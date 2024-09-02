@@ -403,14 +403,14 @@ Goproxy Rerechan: $proxy1
 "
 read -p "Input Number: " opt
 case $opt in
-1) clear ; addssh ;;
-2) clear ; trial-ssh ;;
-3) clear ; member ;;
-4) clear ; hapus ;;
-5) clear ; renew ;;
-6) clear ; cek ;;
-7) clear ; cekssh1 ;;
-*) clear ; menu-ssh :;
+1) clear ; /usr/bin/addssh.sh ;;
+2) clear ; /usr/bin/trial-ssh.sh ;;
+3) clear ; /usr/bin/member.sh ;;
+4) clear ; /usr/bin/hapus.sh ;;
+5) clear ; /usr/bin/renew.sh ;;
+6) clear ; /usr/bin/cek.sh ;;
+7) clear ; /usr/bin/cekssh1.sh ;;
+*) clear ; /usr/bin/menu-ssh.sh ;;
 esac
 }
 

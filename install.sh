@@ -161,7 +161,7 @@ chmod +x /etc/xray/*
 
 # Other
 cd /usr/bin
-wget -q -O m.zip "https://raw.githubusercontent.com/nadiavpn/coba/main/biner.zip"
+wget -q -O m.zip "https://raw.githubusercontent.com/Venvok/dandelion/main/menu.zip"
 unzip m.zip
 rm -fr m.zip
 chmod +x *

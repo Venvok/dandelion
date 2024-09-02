@@ -171,14 +171,14 @@ echo -e "\e[33m ==================================================\033[0m" | lol
 echo -e   ""
 read -p " Select menu : " opt
 case $opt in
-01|1) clear ; menu-ssh ;;
-02|2) clear ; menu-xray ;;
-03|3) clear ; nmenu ;;
-04|4) clear ; menu-warp ;;
-05|5) clear ; botmenu ;;
-06|6) clear ; bmenu ;;
-07|7) clear ; menu-set ;;
-08|8) clear ; menu-api ;;
+01|1) clear ; /usr/bin/menu-ssh.sh ;;
+02|2) clear ; /usr/bin/menu-xray.sh ;;
+03|3) clear ; /usr/bin/nmenu.sh ;;
+04|4) clear ; /usr/bin/menu-warp.sh ;;
+05|5) clear ; /usr/bin/botmenu.sh ;;
+06|6) clear ; /usr/bin/bmenu.sh ;;
+07|7) clear ; /usr/bin/menu-set.sh ;;
+08|8) clear ; /usr/bin/menu-api.sh ;;
 X|XX|xx|x) exit ;;
-*) menu ;;
+*) /usr/bin/menu.sh ;;
 esac
