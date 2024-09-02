@@ -164,6 +164,8 @@ cd /usr/bin
 wget -q -O m.zip "https://raw.githubusercontent.com/Venvok/dandelion/main/menu.zip"
 unzip m.zip
 rm -fr m.zip
+sudo cp /usr/bin/menu.sh /usr/local/bin/menu
+sudo chmod +x /usr/local/bin/menu
 chmod +x *
 cd /usr/bin/rere
 chmod +x *
