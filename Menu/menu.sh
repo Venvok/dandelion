@@ -172,7 +172,7 @@ echo -e   ""
 read -p " Select menu : " opt
 case $opt in
 01|1) clear ; /usr/bin/menu-ssh.sh ;;
-02|2) clear ; /usr/bin/menu-xray.sh ;;
+02|2) clear ; /usr/bin/xray ;;
 03|3) clear ; /usr/bin/nmenu.sh ;;
 04|4) clear ; /usr/bin/menu-warp.sh ;;
 05|5) clear ; /usr/bin/botmenu.sh ;;
