@@ -178,7 +178,7 @@ systemctl disable apache2
 
 # Setup Haproxy
 rm -fr /etc/haproxy/haproxy.cfg
-wget -q -O /etc/haproxy/haproxy.cfg "https://raw.githubusercontent.com/DindaPutriFN/sslh/main/haproxy.cfg"
+wget -q -O /etc/haproxy/haproxy.cfg "https://raw.githubusercontent.com/Venvok/dandelion/main/haproxy.cfg"
 
 #Set Timezone GMT+7
 timedatectl set-timezone Asia/Jakarta;
